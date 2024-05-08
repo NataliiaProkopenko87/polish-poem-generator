@@ -15,9 +15,10 @@
 </header>
 
 <main>
+    <div class="form-container">
     <form id="poem-generator-form">
         <input type="text" 
-        placeholder="Enter the topic of the Polish poem" 
+        placeholder="Enter the topic of a Polish poem" 
         autofocus 
         required 
         autocomplete="off"
@@ -25,13 +26,9 @@
         id="user-instructions" />
         <input type="submit" class="submit-button" />
     </form>
-    <div class="poem" id="poem">Liść pożółkły spada z drzewa
-        <br />
-        chłodny wietrzyk wieje
-        <br />
-        chór ptaszęcy już nie śpiewa
-        <br />
-        ścichły lasy, knieje.
+    <div class="hint">i.e.: Flower, Love, Darling</div>
+    </div>
+    <div class="poem hidden" id="poem">
     </div>
 </main>
 
